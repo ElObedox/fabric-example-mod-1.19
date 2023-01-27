@@ -1,6 +1,7 @@
 package net.obed.modprueba;
 
 import net.fabricmc.api.ModInitializer;
+import net.obed.modprueba.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,7 @@ public class ModPrueba implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 
 	}
 }
