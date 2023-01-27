@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "modprueba",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "Primer mod con Fabric",
+  "name": "Mod Prueba",
+  "description": "Primer mod usando v 1.19 :)",
   "authors": [
-    "MaruchanObed"
+    "obedox"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.maruchan.tutorialmod.TutorialMod"
+      "net.obed.modprueba.ModPrueba"
     ],
     "client": [
-      "net.maruchan.tutorialmod.TutorialModClient"
+      "net.obed.modprueba.ModPruebaClient"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "modprueba.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
-    "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
     "java": ">=17"
   },
   "suggests": {

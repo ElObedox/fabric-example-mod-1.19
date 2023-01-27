@@ -1,8 +1,8 @@
-package net.maruchan.tutorialmod;
+package net.obed.modprueba;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class TutorialModClient implements ClientModInitializer {
+public class ModPruebaClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
