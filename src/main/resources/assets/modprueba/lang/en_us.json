@@ -2,6 +2,14 @@
   "item.modprueba.raw_puffle": "Raw Puffle",
   "item.modprueba.puffle": "Puffle",
   "item.modprueba.tanzanite": "Tanzanite",
+  "block.modprueba.tanzanite_block": "Block of Tanzanite",
+  "block.modprueba.tanzanite_ore": "Tanzanite Ore",
+  "block.modprueba.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
+  "block.modprueba.endstone_tanzanite_ore": "Endstone Tanzanite Ore",
+  "block.modprueba.netherrack_tanzanite_ore": "Deepslate Tanzanite Ore",
+
+  "block.modprueba.chilablock": "Chilabloque",
+  "item.modprueba.chilacoin": "Chilacoin",
 
   "itemGroup.modprueba.puffle": "Puffle Tab",
   "itemGroup.modprueba.puffle2": "Second Puffle Tab"

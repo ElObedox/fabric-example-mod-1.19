@@ -18,12 +18,15 @@ public class ModItems {
     public static final Item TANZANITE = registerItems("tanzanite",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item CHILACOIN = registerItems("chilacoin",
+            new Item(new FabricItemSettings().group(ModItemGroup.PUFFLE)));
+
 
     private static Item registerItems(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ModPrueba.MOD_ID, name), item);
     }
 
     public static void registerModItems(){
-        ModPrueba.LOGGER.debug("Resgistrando Mod Items para " + ModPrueba.MOD_ID);
+        ModPrueba.LOGGER.debug("Registrando Mod Items para " + ModPrueba.MOD_ID);
     }
 }
